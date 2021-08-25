@@ -46,7 +46,7 @@
           />
         </div>
         <div class="rowContent">
-          <label class="label text" for="text">Profile Picture: </label>
+          <label class="label text" for="text">Profile picture: </label>
           <div class="profile-radio-content">
             <label>
               <input
@@ -230,11 +230,13 @@
             <textarea class="notes" type="text" name="notes" id="notes" cols="5" ></textarea>
           </div>
         </div>
-        
+        <div class="errorText">
+          <error-output  id="errorText" >Error</error-output>
+        </div>
         <div class="buttonParent">
           <button class="button" >Cancel</button>
           <div class="rightButtons">
-            <button class="button submitButton" type="submit">Submit</button>
+            <button class="button submitButton" id="submitButton" type="submit">Submit</button>
             <button class="button" type="reset">Reset</button>
           </div>
         </div>
